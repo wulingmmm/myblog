@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ready(function(){
 	$("#content ol li").mouseover(function(event){
 		clearInterval(play);
 	var index=$(this).index();
