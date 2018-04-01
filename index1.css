@@ -1,0 +1,42 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#content
+{
+	width: 671px;
+	height: 459px;
+	border: 1px solid black;
+	margin: 0 auto;
+    overflow: hidden; 
+    position: relative;
+    padding: 3px;
+}
+
+#content ul
+{
+	list-style: none;
+}
+#content ol
+{
+	list-style: none;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+#content ol li
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+    margin: 3px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+#content ol li.current
+{
+	background-color: #F8EC11;
+}
